@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+#scrollUp {
+    text-indent: -999999px;
+    bottom: 20px;
+    right: 20px;
+    background: url(../img/bootom-to-top.png);
+    background-size: 100% auto;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+/*header area start*/
+#header-area {
+    padding: 10px 0 50px 0;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#header-area .menu ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff !important;
+    padding: 0 20px !important;
+}
+
+#header-area .header-content {
+    color: ;
+    padding-top: 15%;
+    color: #fff;
+}
+
+#header-area .header-content h4 {
+    font-size: 28px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+#header-area .header-content h2 {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+#header-area .header-content .btn-custom {
+    border: 2px solid #fff;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 70px;
+}
+
+#header-area .header-content .btn-custom:hover {
+    color:
+}
+
+/*header area end*/
+
+
+/*development area start*/
+#development {
+    padding: 90px 0;
+}
+
+#development .develop-img img {
+    padding-top: 70px;
+}
+
+#development .develop-content h2,
+#development2 .develop-content h2 {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+#development .develop-content p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#development2 {
+    padding: 80px 0px;
+    background-color: #f7f4f4;
+}
+
+/*development area end*/
+
+
+/*fetured-area start*/
+#fetured-area {
+    padding: 100px 0;
+}
+
+#fetured-area .icon {
+    width: 70px;
+    height: 70px;
+    background-color: #100f0f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 83px;
+    cursor: pointer;
+    padding:
+
+}
+
+#fetured-area .icon i {
+    color: #fff;
+    font-size: 35px;
+
+}
+
+#fetured-area .icon-text h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#fetured-area .icon-text p {
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+/*fetured-area end*/
+
+
+/*client area start*/
+#client {
+    padding: 80px 0;
+    background-color: #f7f4f4;
+    margin-left: 0;
+}
+
+#client .client-content h2 {
+    font-size: 60px;
+}
+
+#client .client-content p {
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+#client .client-img {
+    padding-left: 110px;
+}
+
+#client .client-img img {
+    width: 200px;
+    height: auto;
+    border: 8px solid #B0020B;
+}
+
+#client .client-review {
+    background-color: #fff;
+    padding: 40px 60px;
+    margin-right: 100px;
+    margin-top: 60px;
+
+}
+
+#client .client-review p {
+    font-size: 20px;
+}
+
+#client .client-review a {
+    font-size: 16px;
+    color: #7690c5;
+}
+
+#client .client-review::before {
+    width: 0;
+    height: 0;
+    left: -24px;
+    content: '';
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-right: 40px solid #fff;
+    border-bottom: 20px solid transparent;
+    top: 50%
+}
+
+#client .client-review2 {
+    background-color: #fff;
+    padding: 40px 60px;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+
+#client .client-review2 p {
+    font-size: 20px;
+}
+
+#client .client-review2 a {
+    font-size: 16px;
+    color: #7690c5;
+}
+
+#client .client-img2 {
+    padding-left: 40px;
+}
+
+#client .client-img2 img {
+    width: 200px;
+    height: auto;
+    border: 8px solid #B0020B;
+}
+
+
+#client .client-review2::after {
+    width: 0;
+    height: 0;
+    right: -20px;
+    content: '';
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-left: 40px solid #fff;
+    border-bottom: 20px solid transparent;
+    top: 50%
+}
+
+/*client area end*/
+
+/*Brand section start*/
+
+
+
+/*Brand section end*/
+#brand {
+    padding: 50px 0;
+}
+
+#brand {}
+
+
+#team {
+    padding: 60px 0;
+    background-color: #0f0e0e;
+}
+
+#team .team-content {
+    padding-bottom: 70px;
+}
+
+#team .team-content h2 {
+    font-size: 60px;
+    color: #fff;
+
+}
+
+#team .team-content p {
+    font-size: 16px;
+    color: #fff;
+}
+
+#team .tear-wrap {}
+
+#team .tear-wrap .team-img {}
+
+
+#team .tear-wrap .team-img img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #B0020B;
+}
+
+#team .tear-wrap .social-icon p {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+#team .tear-wrap .social-icon ul li a {}
+
+#team .tear-wrap .social-icon ul li a i {
+    color: #fff;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#team .tear-wrap .social-icon ul li a i:hover {
+    color: #B0020B;
+    border: 2px solid #B0020B;
+}
+
+#team .team-area-footer {
+    color: #fff;
+    padding: 80px 150px 40px;
+}
+
+
+/*    footer-area start*/
+#footer-area {
+    padding: 80px 0 30px;
+    background-color: #526391;
+    color: #fff;
+}
+
+.form-control {
+    height: calc(2.5em + .75rem + 2px);
+}
+
+#footer-area .footer-content {
+    padding-right: 70px;
+}
+
+#footer-area .footer-content h2 {
+    font-size: 60px;
+}
+
+#footer-area .footer-content p {
+    padding-bottom: 30px;
+}
+
+#footer-area .footer-icon {
+    padding-bottom: 50px;
+}
+#footer-area .footer-icon a:hover{
+    color: #B0020B;
+}
+#footer-area .footer-icon a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#footer-area .footer-icon a i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#footer-area .form-area form {
+    margin-top: 10%;
+}
+
+#footer-area .form-area .contact-over-text {
+    height: 160px;
+}
+
+#footer-area hr {
+    border: none;
+    border-bottom: 0.5px solid #fff;
+    padding-bottom: 15%;
+}
+
+#footer-area .contact-btn {
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-transform: uppercase;
+}
+
+#footer-area .contact-btn:hover {
+    color: #B0020B;
+    border: 2px solid #B0020B;
+}
+
+#footer-area .text p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*    footer-area end*/
